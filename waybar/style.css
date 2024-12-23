@@ -1,0 +1,91 @@
+* {
+    /* `otf-font-awesome` is required to be installed for icons */
+    font-family: FontAwesome, "Jetbrains Mono";
+    font-size: 14px;
+}
+
+window#waybar {
+    background-color: rgba(0, 0, 0, 0);
+    color: #ffffff;
+    transition-duration: .5s;
+}
+
+window#waybar.hidden {
+    opacity: 0.2;
+}
+
+tooltip {
+    background: rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+}
+
+#workspaces {
+    background-color: rgba(33, 19, 8, 0.9);
+    border-radius: 50px;
+    border: 2.75px solid #e0792b;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+#memory {
+    background-color: rgba(33, 19, 8, 0.9);
+    border-radius: 50px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border: 2.75px solid #269bc9;
+    margin-right: 5px;
+}
+
+#cpu {    
+    background-color: rgba(33, 19, 8, 0.9);
+    border-radius: 50px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border: 2.75px solid #26c980;
+    margin-right: 5px;
+}
+
+#pulseaudio {
+    background-color: rgba(33, 19, 8, 0.9);
+    border-radius: 50px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border: 2.75px solid #d4c53d;
+    margin-right: 5px;
+    transition: all 0.5s;
+}
+
+#network {
+    background-color: rgba(33, 19, 8, 0.9);
+    border-radius: 50px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border: 2.75px solid #3d90d4;
+    margin-right: 5px;
+}
+
+#battery {
+    background-color: rgba(33, 19, 8, 0.9);
+    border-radius: 50px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border: 2.75px solid #ffffff;
+    margin-right: 5px;
+}
+
+#battery.charging {
+    border: 2.75px solid #26a65b;
+}
+
+#battery.warning:not(.charging) {
+    border: 5px solid red;
+}
+
+#clock {
+    background-color: rgba(33, 19, 8, 0.9);
+    border-radius: 50px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border: 2.75px solid #ffffff;
+    margin-right: 5px;
+}
