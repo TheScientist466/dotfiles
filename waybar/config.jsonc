@@ -7,13 +7,12 @@
         "cpu"
     ],
     "modules-center": [
-        "hyprland/window"
+        "clock"
     ],
     "modules-right": [
         "pulseaudio",
         "network",
-        "battery",
-        "clock"
+        "battery"
     ],
 
     "hyprland/workspaces": {
@@ -45,6 +44,7 @@
         }
     },
     "network": {
+        "interval": 60,
         "format-wifi": "  {ipaddr}/{cidr}",
         "format-ethernet": "  {ipaddr}/{cidr}",
         "tooltip-format": "{ifname}",
@@ -64,6 +64,7 @@
     },
     "clock": {
         "interval": 60,
-        "format": " {:%H:%M}"
+        "format": " {:%A, %d %B %Y %H:%M}",
+        "tooltip": true
     }
 }
