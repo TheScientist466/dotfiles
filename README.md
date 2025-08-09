@@ -8,7 +8,12 @@ dotfiles for my linux system.
 
 ## Currently using
 
+    - Arch Linux
     - Hyprland
     - Hyprpaper for screenshots
-    - waybar
-    - oh my zsh
+    - Waybar
+    - Zsh as shell
+    - Oh my zsh
+    - Alacritty for terminal emulation
+    - Nemo for file manager
+    - NvChad + Neovim for text editing
