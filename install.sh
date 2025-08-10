@@ -1,4 +1,7 @@
-# ZSH
+!# /bin/sh
+
+git clone https://github.com/TheScientist466/dotfiles.git
+cd dotfiles
 
 cd zsh && ./setup.sh && cd ..
 
