@@ -12,6 +12,7 @@ dotfiles for my linux system.
     - Hyprland
     - Hyprpaper for screenshots
     - Waybar
+    - Wofi
     - Zsh as shell
     - Oh my zsh
     - Alacritty for terminal emulation
