@@ -3,5 +3,5 @@ import = [
     "window.toml",
     "font.toml",
     "misc.toml",
-    "themes/catppuccin-mocha.toml"
+    "themes/onedark.toml"
 ]
