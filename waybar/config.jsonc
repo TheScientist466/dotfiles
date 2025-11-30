@@ -15,7 +15,7 @@
         "pulseaudio",
         "network", 
         "battery",
-        "custom/power"
+        "custom/wall"
     ],
 
     "mpris": {
@@ -80,8 +80,8 @@
         "on-click": "wofi --show drun --width 40% --height 20%",
         "on-click-right": "killall wofi"
     },
-    "custom/power":{
+    "custom/wall":{
         "format": " ",
-        "on-click": "sh ~/.config/waybar/scripts/leave.sh",
+        "on-click": "zsh ~/.config/waybar/scripts/wallchange.sh",
     },
 }

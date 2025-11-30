@@ -10,11 +10,15 @@ dotfiles for my linux system.
 
     - Arch Linux
     - Hyprland
-    - Hyprpaper for screenshots
+    - swww for wallpapers
+    - Hyprshot for screenshots
     - Waybar
     - Wofi
     - Zsh as shell
-    - Oh my zsh
+        - Oh my zsh
+        - zoxide
+        - zsh-autosuggestions
+        - zsh-syntax-highlighting
     - Alacritty for terminal emulation
     - Nemo for file manager
     - NvChad + Neovim for text editing
